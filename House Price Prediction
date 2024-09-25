@@ -6,7 +6,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.impute import SimpleImputer
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('train.csv')
+df = pd.read_csv('C:/Users/win/Downloads/house-prices-advanced-regression-techniques/train.csv')
 
 features = [
     'MSSubClass', 'LotFrontage', 'LotArea', 'OverallQual', 'OverallCond',
